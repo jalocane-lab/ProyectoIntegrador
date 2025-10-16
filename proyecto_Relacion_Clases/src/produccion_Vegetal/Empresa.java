@@ -17,7 +17,7 @@ public class Empresa {
 	}
 	
 	public void mostrarAreas() {
-		System.out.println("--> Áreas de la Empresa: " + areas.getArea1() + "  " + areas.getArea2() + areas.getArea3());
+		System.out.println("--> Áreas de la Empresa: " + areas.getArea1() + " -- " + areas.getArea2() + " -- "  + areas.getArea3());
 	}
 
 }
