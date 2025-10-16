@@ -3,10 +3,12 @@ package produccion_Vegetal;
 public class Pedido {
 	
 	private Cliente cliente;
+	private Remito remito;
 	private int idpedido;
 	
-	public Pedido(Cliente cliente, int idpedido) {
+	public Pedido(Cliente cliente, String descripcionPedido, int idpedido) {
 		this.cliente = cliente;
+		this.remito = new Remito (descripcionPedido);
 		this.idpedido = idpedido;
 	}
 
