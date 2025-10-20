@@ -13,7 +13,7 @@ public class Empresa {
 	}
 	
 	public void infoEmpresa() {
-		System.out.println("* Nombre de la Empresa: " + nombre + " --> CUIT: " + cuit);
+		System.out.println("--> Nombre de la Empresa: " + nombre + " --> CUIT: " + cuit);
 	}
 	
 	public void mostrarAreas() {

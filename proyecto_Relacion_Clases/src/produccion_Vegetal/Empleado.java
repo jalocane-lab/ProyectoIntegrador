@@ -38,7 +38,7 @@ public class Empleado extends Persona {
 	
 	@Override
 	public void infoPersona() {
-		System.out.println("Nombre: " + getNombre() + " --> DNI: " + getDni() + "Fecha de Nacimiento: " + getFecha_nacimiento() + " Puesto: " + puesto + " Salario: $" + salario);
+		System.out.println("Nombre: " + getNombre() + " --> DNI: " + getDni() + " Fecha de Nacimiento: " + getFecha_nacimiento() + " Puesto: " + puesto + " --> Salario: $" + salario);
 	}
 
 }
