@@ -36,9 +36,16 @@ public class Main {
 		System.out.println("------------------------------------------");
 		System.out.println("--- Listado de Empleados Dulces Puelo --- ");
 		System.out.println("------------------------------------------");
-		for (int i = 0; i < 3; i++) {
+		for (int i = 0; i < 2; i++) {
 			clientes[i].datosCliente();
 		}
+		Pedido pedido1 = new Pedido(cliente1, "25kg de Frambuesas", 123);
+
+		System.out.println("");
+		System.out.println("------------------------------");
+		System.out.println("--- Pedidos en producción --- ");
+		System.out.println("------------------------------");
+		pedido1.mostrarPedido();
 	}
 
 }

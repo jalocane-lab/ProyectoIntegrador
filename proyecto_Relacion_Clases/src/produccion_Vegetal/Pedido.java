@@ -19,6 +19,8 @@ public class Pedido {
 	public void setIdpedido(int idpedido) {
 		this.idpedido = idpedido;
 	}
-	
+	public void mostrarPedido() {
+		System.out.println("Codigo de Envio: " + idpedido + "  Cliente: " + cliente.getRazonSocial() + " --> Descripción del pedido: " + remito.getDescripcionPedido());
+	}
 	
 }
